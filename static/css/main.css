@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #fff;
+    color: #000;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-table {
+    /* border: 2px solid black; */
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.main-table td,
+.main-table th {
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.main-table th {
+    padding: 20px;
+}
+.main-table td {
+    padding: 10px;
+}
